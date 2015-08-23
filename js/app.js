@@ -9,7 +9,7 @@ insta.run(function ($rootScope, $location) {
 
     $rootScope.$on("$routeChangeStart", function (event, next, current) {
         if ($rootScope.user == null) {
-            $location.path("/login");
+            //$location.path("/login");
         }
     });
 });

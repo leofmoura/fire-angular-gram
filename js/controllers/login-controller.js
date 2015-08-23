@@ -39,7 +39,7 @@
         function logout() {
             ref.unauth();
             $rootScope.user = null;
-            localStorage.removeItem("firebase:session::5517");
+            localStorage.removeItem("firebase:session::instaleo");
             $location.path('/login');
         }
 
